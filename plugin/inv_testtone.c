@@ -24,7 +24,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include <lv2.h>
+#include <lv2/lv2plug.in/ns/lv2core/lv2.h>
 #include "library/common.h"
 #include "inv_testtone.h"
 

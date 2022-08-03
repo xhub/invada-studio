@@ -24,7 +24,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-#include <lv2.h>
+#include <lv2/lv2plug.in/ns/lv2core/lv2.h>
 #include "common.h"
 
 #define SMALL_TO_ZERO(f) if (fabs(f) < 1e-16) f = 0;
