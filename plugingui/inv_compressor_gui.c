@@ -24,7 +24,7 @@
 #include <string.h>
 #include <math.h>
 #include <gtk/gtk.h>
-#include <lv2.h>
+#include <lv2/lv2plug.in/ns/lv2core/lv2.h>
 #include "lv2/lv2plug.in/ns/extensions/ui/ui.h"
 #include "widgets/widgets.h"
 #include "widgets/display-Compressor.h"
