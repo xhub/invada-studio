@@ -35,9 +35,13 @@ GUIS		=	inv_compressor_gui.so \
 			inv_testtone_gui.so \
 			inv_tube_gui.so \
 
+inv_widgets:
+	$(MAKE) -C widgets
 
-all:	$(GUIS) 
-     
+all:
+	$(MAKE) inv_widgets
+	$(MAKE) targets
+
 # RULES TO BUILD GUIS FROM C CODE
 
 inv_compressor_gui.so: inv_compressor_gui.o	../plugin/inv_compressor.h	inv_compressor_gui.h   
