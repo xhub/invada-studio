@@ -33,7 +33,7 @@ INSTALL_BUNDLE_DIR		=	invada.lv2
 
 # GENERAL
 
-SUBDIRS		=	plugin/library plugin plugingui/widgets plugingui
+SUBDIRS		=	plugin/library plugin plugingui
 GLADEDIRS	=	plugingui/gtk 
 DESTDIR		=	""
 
@@ -43,7 +43,7 @@ all:
         echo "=================================="; \
         echo "make all in $$i"; \
         echo "=================================="; \
-        (cd $$i; $(MAKE) ); done
+        (cd $$i; $(MAKE) all ); done
 	@echo ""
 
 glade:	        
