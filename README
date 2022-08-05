@@ -1,12 +1,10 @@
-INTRODUCTION
-============
-Thanks for taking the time to try out these plugins.
-Feedback / comments welcome.
+# INTRODUCTION
+This fork aims at preserving the original GTK GUI and keep this nice plugin suite available
 
 
 
-CONTENTS
-========
+# CONTENTS
+
 The following plugins are included:
 
 Delay Plugins
@@ -43,20 +41,19 @@ Utility Plugins
 
 
 
-INSTALLATION
-============
+# INSTALLATION
+
 No binaries are included, you'll need to compile the plugins yourself. 
 
 
 
-BUILDING
-========
+# BUILDING
+
 To build the plugins the you'll need the following items installed:
 * a working build environment with core includes
 * the lv2 header file (lv2.h)
 * the gtk2 developer libraries & includes
 * the cairo developer libraries & includes
-* the glade2 developer libraries & includes
 
 Go to the directory that was created when you unpacked this archive and then run:
 
@@ -69,8 +66,8 @@ Change the Makefile if you'd like to have them in an alternate system location.
 
 
 
-BUILDING (Debian and derivatives)
-=================================
+# BUILDING (Debian and derivatives)
+
 Packages for Debian and derivatives (Ubuntu etc) can be built from this archive. You'll need a Debian build environment.
 To install the build environment and dependancies run the following:
 
@@ -85,14 +82,14 @@ The plugins will install into "/usr" by default.
 
 
 
-PACKAGES (Ubuntu and derivatives)
-=================================
+# PACKAGES (Ubuntu and derivatives)
+
 Pre built binary packagaes for ubuntu are available from https://launchpad.net/~invada/+archive/ppa
 
 
 
-PACKAGING FOR DISTROS
-=================================
+# PACKAGING FOR DISTROS
+
 An alternative download is available at launchpad which has no 'debian' packaging information in it. Look for the 'nopkg' tarball.
 When building in fakeroot type environments, the installation directory can be prefixed with a destination directory like so:
 make install-sys DESTDIR='/a/fake/root/location'
